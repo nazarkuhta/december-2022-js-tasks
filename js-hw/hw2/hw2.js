@@ -163,7 +163,7 @@
 // (в першу, другу, третю или четверту частину години).
 
 // let time = +prompt(`enter time`);
-// if (time < 15){
+// if (time >0 &&time < 15){
 //     console.log(`first part`)
 // }else if (time > 14 && time < 30){
 //     console.log(`second part`)
