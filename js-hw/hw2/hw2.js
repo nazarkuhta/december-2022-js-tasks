@@ -165,11 +165,11 @@
 // let time = +prompt(`enter time`);
 // if (time < 15){
 //     console.log(`first part`)
-// }else if (time > 14 , time < 30){
+// }else if (time > 14 && time < 30){
 //     console.log(`second part`)
-// }else if (time > 29 , time < 45){
+// }else if (time > 29 && time < 45){
 //     console.log(`third part`)
-// }else if (time >44 , time<60){
+// }else if (time > 44 && time < 60){
 //     console.log(`fourth part`)
 // }
 
@@ -179,9 +179,9 @@
 // let  day = +prompt(`Enter day`);
 // if (day <= 11) {
 //     console.log(`first decade`)
-// } else if (day > 11 , day <= 21) {
+// } else if (day > 11 && day <= 21) {
 //     console.log(`second decade`)
-// } else if (day > 11 , day <= 31) {
+// } else if (day > 11 && day <= 31) {
 //     console.log(`third decade`)
 // }
 

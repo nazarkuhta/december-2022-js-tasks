@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30cd95cc-c790-4b6b-9af4-242c818a551d" name="Changes" comment="hw2">
+    <list default="true" id="30cd95cc-c790-4b6b-9af4-242c818a551d" name="Changes" comment="hw2 update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js-hw/hw2/hw2.js" beforeDir="false" afterPath="$PROJECT_DIR$/js-hw/hw2/hw2.js" afterDir="false" />
     </list>
@@ -63,6 +63,7 @@
       <workItem from="1675416577765" duration="883000" />
       <workItem from="1675442522589" duration="234000" />
       <workItem from="1675443727475" duration="405000" />
+      <workItem from="1675447737100" duration="628000" />
     </task>
     <task id="LOCAL-00001" summary="hw1">
       <created>1675184746117</created>
@@ -106,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675442537116</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="hw2 update">
+      <created>1675447927942</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1675447927942</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +135,7 @@
     <MESSAGE value="hw1" />
     <MESSAGE value="hw01" />
     <MESSAGE value="hw2" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw2" />
+    <MESSAGE value="hw2 update" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw2 update" />
   </component>
 </project>
