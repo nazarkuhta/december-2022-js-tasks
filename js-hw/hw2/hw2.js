@@ -2,8 +2,7 @@
 // - Створити масив, наповнити його 10 елементами будь-якого типу, вивести кожен елемент в консоль
 
 
-// let arr
-// arr=[`vasya`, 123 , -312, true, false, `3111`, `asdw`, 0]
+// let arr=[`vasya`, 123 , -312, true, false, `3111`, `asdw`, 0]
 // console.log(arr[0])
 // console.log(arr[1])
 // console.log(arr[2])
@@ -44,7 +43,7 @@
 //     pageCount: 111,
 //     genre: `genre`,
 //     authors: [
-//         author1 = {
+//        {
 //         name: `vasya`,
 //         age: 123
 //         }
@@ -57,7 +56,7 @@
 //     pageCount: 222,
 //     genre: `genre2`,
 //     authors: [
-//         author1 = {
+//         {
 //             name: `olya`,
 //             age: 234
 //         }
@@ -70,7 +69,7 @@
 //     pageCount: 333,
 //     genre: `genre3`,
 //     authors: [
-//         author1 = {
+//        {
 //             name: `olya`,
 //             age: 345
 //         }
@@ -154,7 +153,7 @@
 
 // let x = +prompt(`Enter number`);
 //
-// if (x < 0 ,x >0) {
+// if (x !== 0) {
 //     console.log(`correct`)
 // }else{
 //     console.log(`incorrect`)
@@ -190,36 +189,38 @@
 // - Скласти розклад на тиждень за домопоги switch.
 // Користувач вводить порядковий номер дня тижня і на екрані відображається інфа що заплановано на цей день (можна замість плану на день, назву дня англійською).
 
-//
+
 // let weekday = +prompt(`enter weekday`)
 // switch (weekday){
-//     case weekday = 1:
+//     case  1:
 //         document.write(`monday`);
 //         break;
 //
-//         case weekday = 2:
+//         case 2:
 //         document.write(`tuesday`);
 //         break;
 //
-//     case weekday = 3:
+//     case  3:
 //         document.write(`wednesday`);
 //         break;
 //
-//     case weekday = 4:
+//     case  4:
 //         document.write(`thursday`);
 //         break;
 //
-//     case weekday = 5:
+//     case  5:
 //         document.write(`friday`);
 //         break;
 //
-//     case weekday = 6:
+//     case  6:
 //         document.write(`saturday`);
 //         break;
 //
-//     case weekday = 7:
+//     case 7:
 //         document.write(`sunday`);
 //         break;
+// default:
+//     document.write(`you have not entered a day of the week`)
 // }
 
 
