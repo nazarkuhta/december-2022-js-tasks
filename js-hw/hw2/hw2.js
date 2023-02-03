@@ -190,18 +190,101 @@
 // - Скласти розклад на тиждень за домопоги switch.
 // Користувач вводить порядковий номер дня тижня і на екрані відображається інфа що заплановано на цей день (можна замість плану на день, назву дня англійською).
 
-
+//
+// let weekday = +prompt(`enter weekday`)
+// switch (weekday){
+//     case weekday = 1:
+//         document.write(`monday`);
+//         break;
+//
+//         case weekday = 2:
+//         document.write(`tuesday`);
+//         break;
+//
+//     case weekday = 3:
+//         document.write(`wednesday`);
+//         break;
+//
+//     case weekday = 4:
+//         document.write(`thursday`);
+//         break;
+//
+//     case weekday = 5:
+//         document.write(`friday`);
+//         break;
+//
+//     case weekday = 6:
+//         document.write(`saturday`);
+//         break;
+//
+//     case weekday = 7:
+//         document.write(`sunday`);
+//         break;
+// }
 
 
 //     - Користувач вводить або має два числа.
 //         Потрібно знайти та вивести максимальне число з тих двох .
 //         Також потрібно врахувати коли введені рівні числа.
+
+// let number1 = +prompt(`enter first number`)
+// let number2 = +prompt(`enter second number`)
 //
+// if (number1 === number2){
+//     console.log(`числа рівні`)
+// }else if (number1 < number2){
+//     console.log(number2)
+// }else if (number1 > number2){
+//     console.log(number1)
+// }
+
+
 
 //     - є змінна х, яка може прийняти будь-яке значення (стрінг, число, undefined, null  і тд включно). Напишіть код який,
 //         за допомоги  оператора || буде присвоювати змінній х значення "default"  якщо значення змінної х являється falsy (хибноподібні, тобто приводиться до false)
-//
 
-//
+
+
+
 //     - з файлу arrays.js (лежить в папці 2023 plan ) взяти масив coursesAndDurationArray.
 //     За допомоги іф перевірити кожен його елемент на тривалість навчання. У випадку якщо тривалість довша за 5 місяців вивести в консоль "Супер".
+
+// let coursesAndDurationArray = [
+//     {title: 'JavaScript Complex', monthDuration: 5},
+//     {title: 'Java Complex', monthDuration: 6},
+//     {title: 'Python Complex', monthDuration: 6},
+//     {title: 'QA Complex', monthDuration: 4},
+//     {title: 'FullStack', monthDuration: 7},
+//     {title: 'Frontend', monthDuration: 4}
+// ];
+//
+// if (coursesAndDurationArray[0].monthDuration > 5){
+//     console.log(`super`)
+// }else {
+//     console.log(`not super`)
+// }
+// if (coursesAndDurationArray[1].monthDuration > 5){
+//     console.log(`super`)
+// }else {
+//     console.log(`not super`)
+// }
+// if (coursesAndDurationArray[2].monthDuration > 5){
+//     console.log(`super`)
+// }else {
+//     console.log(`not super`)
+// }
+// if (coursesAndDurationArray[3].monthDuration > 5){
+//     console.log(`super`)
+// }else {
+//     console.log(`not super`)
+// }
+// if (coursesAndDurationArray[4].monthDuration > 5){
+//     console.log(`super`)
+// }else {
+//     console.log(`not super`)
+// }
+// if (coursesAndDurationArray[5].monthDuration > 5){
+//     console.log(`super`)
+// }else {
+//     console.log(`not super`)
+// }
