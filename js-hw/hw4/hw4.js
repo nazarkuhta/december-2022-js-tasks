@@ -175,7 +175,6 @@
 
 
 
-
 // function exchange(sumUAH,currencyValues,exchangeCurrency){
 //
 //     for (let currencyValue of currencyValues) {
