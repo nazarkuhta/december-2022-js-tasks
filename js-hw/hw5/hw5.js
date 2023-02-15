@@ -155,17 +155,19 @@
 // Приклад exchange(10000,[{currency:'USD',value:40},{currency:'EUR',value:42}],'USD') // => 250
 
 
-let exchange = (sumUAH,currencyValues,exchangeCurrency) =>{
-    for (let currencyValue of currencyValues) {
-        if (currencyValue === exchangeCurrency){
-
-
-
-        }
-
-    }
-}
-exchange(10000,[{currency:'USD',value:40},{currency:'EUR',value:42}],'USD')
+// let exchange = (sumUAH,currencyValues,exchangeCurrency) =>{
+//
+//     for (let currencyValue of currencyValues) {
+//         if (currencyValue.currency === exchangeCurrency){
+//
+//             return  sumUAH / currencyValue.value
+//
+//
+//         }
+//     }
+//
+// }
+// console.log(exchange(10000,[{currency:'USD',value:40},{currency:'EUR',value:42}],'USD'))
 
 
 
