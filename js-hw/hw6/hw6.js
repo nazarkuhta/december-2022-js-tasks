@@ -120,12 +120,230 @@
 
 
 //     описати колоду карт (від 6 до туза без джокерів)
+
+let cards = [
+    {
+        cardSuit: 'spade',
+         value: '6',
+         color:'black',
+    },
+    {
+        cardSuit: 'spade',
+        value: '7',
+        color:'black',
+    },
+    {
+        cardSuit: 'spade',
+        value: '8',
+        color:'black',
+    },
+    {
+        cardSuit: 'spade',
+        value: '9',
+        color:'black',
+    },
+    {
+        cardSuit: 'spade',
+        value: '10',
+        color:'black',
+    },
+    {
+        cardSuit: 'spade',
+        value: 'jack',
+        color:'black',
+    },
+    {
+        cardSuit: 'spade',
+        value: 'queen',
+        color:'black',
+    },
+    {
+        cardSuit: 'spade',
+        value: 'king',
+        color:'black',
+    },
+    {
+        cardSuit: 'spade',
+        value: 'ace',
+        color:'black',
+    },
+    {
+        cardSuit: 'clubs',
+        value: '6',
+        color:'black',
+    },
+    {
+        cardSuit: 'clubs',
+        value: '7',
+        color:'black',
+    },
+    {
+        cardSuit: 'clubs',
+        value: '8',
+        color:'black',
+    },
+    {
+        cardSuit: 'clubs',
+        value: '9',
+        color:'black',
+    },
+    {
+        cardSuit: 'clubs',
+        value: '10',
+        color:'black',
+    },
+    {
+        cardSuit: 'clubs',
+        value: 'jack',
+        color:'black',
+    },
+    {
+        cardSuit: 'clubs',
+        value: 'queen',
+        color:'black',
+    },
+    {
+        cardSuit: 'clubs',
+        value: 'king',
+        color:'black',
+    },
+    {
+        cardSuit: 'clubs',
+        value: 'ace',
+        color:'black',
+    },
+    {
+        cardSuit: 'diamond',
+        value: '6',
+        color:'red',
+    },
+    {
+        cardSuit: 'diamond',
+        value: '7',
+        color:'red',
+    },
+    {
+        cardSuit: 'diamond',
+        value: '8',
+        color:'red',
+    },
+    {
+        cardSuit: 'diamond',
+        value: '9',
+        color:'red',
+    },
+    {
+        cardSuit: 'diamond',
+        value: '10',
+        color:'red',
+    },
+    {
+        cardSuit: 'diamond',
+        value: 'jack',
+        color:'red',
+    },
+    {
+        cardSuit: 'diamond',
+        value: 'queen',
+        color:'red',
+    },
+    {
+        cardSuit: 'diamond',
+        value: 'king',
+        color:'red',
+    },
+    {
+        cardSuit: 'diamond',
+        value: 'ace',
+        color:'red',
+    },
+    {
+        cardSuit: 'heart',
+        value: '6',
+        color:'red',
+    },
+    {
+        cardSuit: 'heart',
+        value: '7',
+        color:'red',
+    },
+    {
+        cardSuit: 'heart',
+        value: '8',
+        color:'red',
+    },
+    {
+        cardSuit: 'heart',
+        value: '9',
+        color:'red',
+    },
+    {
+        cardSuit: 'heart',
+        value: '10',
+        color:'red',
+    },
+    {
+        cardSuit: 'heart',
+        value: 'jack',
+        color:'red',
+    },
+    {
+        cardSuit: 'heart',
+        value: 'queen',
+        color:'red',
+    },
+    {
+        cardSuit: 'heart',
+        value: 'king',
+        color:'red',
+    },
+    {
+        cardSuit: 'heart',
+        value: 'ace',
+        color:'red',
+    },
+]
+
 // - знайти піковий туз
+
+console.log(cards.find(value => value.value === `ace` && value.cardSuit === `spade`))
+
 // - всі шістки
+
+// for (let card of cards) {
+//     if (card.value === `6`){
+//         console.log(card)
+//     }
+// }
+
 // - всі червоні карти
+
+// for (let card of cards) {
+//     if (card.color === `red`){
+//         console.log(card)
+//     }
+// }
+
 // - всі буби
+
+// for (let card of cards) {
+//     if (card.cardSuit === `diamond`){
+//         console.log(card)
+//     }
+// }
+
 // - всі трефи від 9 та більше
-//
+
+// for (let card of cards) {
+//     if (card.cardSuit === `clubs` && card.value >= `9`){
+//         console.log(card)
+//     }
+// }
+
+
+
+
+
 // {
 //     cardSuit: '', // 'spade', 'diamond','heart', 'clubs'
 //         value: '', // '6'-'10', 'ace','jack','queen','king','joker'
