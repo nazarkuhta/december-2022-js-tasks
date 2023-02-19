@@ -355,15 +355,10 @@ let cards = [
 
 // - всі трефи від 9 та більше
 
-// let clubsFromNine = cards.filter(value => value.cardSuit === `clubs` && value.value >=`9`)
-// console.log(clubsFromNine)
+let clubsFromNine = cards.filter( value => value.cardSuit === `clubs`).slice(3)
+console.log(clubsFromNine)
 
-// for (let card of cards) {
-//     if (card.cardSuit === `clubs` && card.value >= `9`){
-//         console.log(card)
-//     }
-//
-// }
+
 
 
 // {
@@ -379,13 +374,12 @@ let cards = [
 
 //     Взяти описану колоду карт, та за допомоги reduce упакувати всі карти по "мастях" в об'єкт
 
-let cardDeck = {
-    spades: [],
-    diamonds: [],
-    hearts: [],
-    clubs: []
-}
-
+// let cardDeck = {
+//     spades: [],
+//     diamonds: [],
+//     hearts: [],
+//     clubs: []
+// }
 
 
 // =========================
