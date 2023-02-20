@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30cd95cc-c790-4b6b-9af4-242c818a551d" name="Changes" comment="hw6">
-      <change afterPath="$PROJECT_DIR$/js-hw/hw7/hw7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js-hw/hw7/hw7.js" afterDir="false" />
-    </list>
+    <list default="true" id="30cd95cc-c790-4b6b-9af4-242c818a551d" name="Changes" comment="hw6" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,6 +75,7 @@
       <workItem from="1676834120246" duration="250000" />
       <workItem from="1676836359553" duration="850000" />
       <workItem from="1676904656811" duration="3772000" />
+      <workItem from="1676914908952" duration="60000" />
     </task>
     <task id="LOCAL-00001" summary="hw1">
       <created>1675184746117</created>
@@ -247,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676910030013</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="hw6">
+      <created>1676914962716</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1676914962716</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

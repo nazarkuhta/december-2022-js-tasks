@@ -121,188 +121,188 @@
 
 //     описати колоду карт (від 6 до туза без джокерів)
 
-// let cards = [
-//     {
-//         cardSuit: 'spade',
-//         value: '6',
-//         color: 'black',
-//     },
-//     {
-//         cardSuit: 'spade',
-//         value: '7',
-//         color: 'black',
-//     },
-//     {
-//         cardSuit: 'spade',
-//         value: '8',
-//         color: 'black',
-//     },
-//     {
-//         cardSuit: 'spade',
-//         value: '9',
-//         color: 'black',
-//     },
-//     {
-//         cardSuit: 'spade',
-//         value: '10',
-//         color: 'black',
-//     },
-//     {
-//         cardSuit: 'spade',
-//         value: 'jack',
-//         color: 'black',
-//     },
-//     {
-//         cardSuit: 'spade',
-//         value: 'queen',
-//         color: 'black',
-//     },
-//     {
-//         cardSuit: 'spade',
-//         value: 'king',
-//         color: 'black',
-//     },
-//     {
-//         cardSuit: 'spade',
-//         value: 'ace',
-//         color: 'black',
-//     },
-//     {
-//         cardSuit: 'club',
-//         value: '6',
-//         color: 'black',
-//     },
-//     {
-//         cardSuit: 'club',
-//         value: '7',
-//         color: 'black',
-//     },
-//     {
-//         cardSuit: 'club',
-//         value: '8',
-//         color: 'black',
-//     },
-//     {
-//         cardSuit: 'club',
-//         value: '9',
-//         color: 'black',
-//     },
-//     {
-//         cardSuit: 'club',
-//         value: '10',
-//         color: 'black',
-//     },
-//     {
-//         cardSuit: 'club',
-//         value: 'jack',
-//         color: 'black',
-//     },
-//     {
-//         cardSuit: 'club',
-//         value: 'queen',
-//         color: 'black',
-//     },
-//     {
-//         cardSuit: 'club',
-//         value: 'king',
-//         color: 'black',
-//     },
-//     {
-//         cardSuit: 'club',
-//         value: 'ace',
-//         color: 'black',
-//     },
-//     {
-//         cardSuit: 'diamond',
-//         value: '6',
-//         color: 'red',
-//     },
-//     {
-//         cardSuit: 'diamond',
-//         value: '7',
-//         color: 'red',
-//     },
-//     {
-//         cardSuit: 'diamond',
-//         value: '8',
-//         color: 'red',
-//     },
-//     {
-//         cardSuit: 'diamond',
-//         value: '9',
-//         color: 'red',
-//     },
-//     {
-//         cardSuit: 'diamond',
-//         value: '10',
-//         color: 'red',
-//     },
-//     {
-//         cardSuit: 'diamond',
-//         value: 'jack',
-//         color: 'red',
-//     },
-//     {
-//         cardSuit: 'diamond',
-//         value: 'queen',
-//         color: 'red',
-//     },
-//     {
-//         cardSuit: 'diamond',
-//         value: 'king',
-//         color: 'red',
-//     },
-//     {
-//         cardSuit: 'diamond',
-//         value: 'ace',
-//         color: 'red',
-//     },
-//     {
-//         cardSuit: 'heart',
-//         value: '6',
-//         color: 'red',
-//     },
-//     {
-//         cardSuit: 'heart',
-//         value: '7',
-//         color: 'red',
-//     },
-//     {
-//         cardSuit: 'heart',
-//         value: '8',
-//         color: 'red',
-//     },
-//     {
-//         cardSuit: 'heart',
-//         value: '9',
-//         color: 'red',
-//     },
-//     {
-//         cardSuit: 'heart',
-//         value: '10',
-//         color: 'red',
-//     },
-//     {
-//         cardSuit: 'heart',
-//         value: 'jack',
-//         color: 'red',
-//     },
-//     {
-//         cardSuit: 'heart',
-//         value: 'queen',
-//         color: 'red',
-//     },
-//     {
-//         cardSuit: 'heart',
-//         value: 'king',
-//         color: 'red',
-//     },
-//     {
-//         cardSuit: 'heart',
-//         value: 'ace',
-//         color: 'red',
-//     },
-// ]
+let cards = [
+    {
+        cardSuit: 'spade',
+        value: '6',
+        color: 'black',
+    },
+    {
+        cardSuit: 'spade',
+        value: '7',
+        color: 'black',
+    },
+    {
+        cardSuit: 'spade',
+        value: '8',
+        color: 'black',
+    },
+    {
+        cardSuit: 'spade',
+        value: '9',
+        color: 'black',
+    },
+    {
+        cardSuit: 'spade',
+        value: '10',
+        color: 'black',
+    },
+    {
+        cardSuit: 'spade',
+        value: 'jack',
+        color: 'black',
+    },
+    {
+        cardSuit: 'spade',
+        value: 'queen',
+        color: 'black',
+    },
+    {
+        cardSuit: 'spade',
+        value: 'king',
+        color: 'black',
+    },
+    {
+        cardSuit: 'spade',
+        value: 'ace',
+        color: 'black',
+    },
+    {
+        cardSuit: 'club',
+        value: '6',
+        color: 'black',
+    },
+    {
+        cardSuit: 'club',
+        value: '7',
+        color: 'black',
+    },
+    {
+        cardSuit: 'club',
+        value: '8',
+        color: 'black',
+    },
+    {
+        cardSuit: 'club',
+        value: '9',
+        color: 'black',
+    },
+    {
+        cardSuit: 'club',
+        value: '10',
+        color: 'black',
+    },
+    {
+        cardSuit: 'club',
+        value: 'jack',
+        color: 'black',
+    },
+    {
+        cardSuit: 'club',
+        value: 'queen',
+        color: 'black',
+    },
+    {
+        cardSuit: 'club',
+        value: 'king',
+        color: 'black',
+    },
+    {
+        cardSuit: 'club',
+        value: 'ace',
+        color: 'black',
+    },
+    {
+        cardSuit: 'diamond',
+        value: '6',
+        color: 'red',
+    },
+    {
+        cardSuit: 'diamond',
+        value: '7',
+        color: 'red',
+    },
+    {
+        cardSuit: 'diamond',
+        value: '8',
+        color: 'red',
+    },
+    {
+        cardSuit: 'diamond',
+        value: '9',
+        color: 'red',
+    },
+    {
+        cardSuit: 'diamond',
+        value: '10',
+        color: 'red',
+    },
+    {
+        cardSuit: 'diamond',
+        value: 'jack',
+        color: 'red',
+    },
+    {
+        cardSuit: 'diamond',
+        value: 'queen',
+        color: 'red',
+    },
+    {
+        cardSuit: 'diamond',
+        value: 'king',
+        color: 'red',
+    },
+    {
+        cardSuit: 'diamond',
+        value: 'ace',
+        color: 'red',
+    },
+    {
+        cardSuit: 'heart',
+        value: '6',
+        color: 'red',
+    },
+    {
+        cardSuit: 'heart',
+        value: '7',
+        color: 'red',
+    },
+    {
+        cardSuit: 'heart',
+        value: '8',
+        color: 'red',
+    },
+    {
+        cardSuit: 'heart',
+        value: '9',
+        color: 'red',
+    },
+    {
+        cardSuit: 'heart',
+        value: '10',
+        color: 'red',
+    },
+    {
+        cardSuit: 'heart',
+        value: 'jack',
+        color: 'red',
+    },
+    {
+        cardSuit: 'heart',
+        value: 'queen',
+        color: 'red',
+    },
+    {
+        cardSuit: 'heart',
+        value: 'king',
+        color: 'red',
+    },
+    {
+        cardSuit: 'heart',
+        value: 'ace',
+        color: 'red',
+    },
+]
 
 // - знайти піковий туз
 
@@ -355,14 +355,13 @@
 
 // - всі трефи від 9 та більше
 
-// let clubsFromNine = cards.filter( card => {
-//         if (card.cardSuit ===`clubs` && card.value !==`6` && card.value !==`7` && card.value !==`8`){
-//         return 1
-//
-//         }
-//
-// })
-// console.log(clubsFromNine)
+let clubsFromNine = cards.filter( card => {
+        if (card.cardSuit ===`club` && card.value !==`6` && card.value !==`7` && card.value !==`8`){
+        return 1
+        }
+
+})
+console.log(clubsFromNine)
 
 
 // {
