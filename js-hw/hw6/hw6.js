@@ -121,188 +121,188 @@
 
 //     описати колоду карт (від 6 до туза без джокерів)
 
-let cards = [
-    {
-        cardSuit: 'spade',
-        value: '6',
-        color: 'black',
-    },
-    {
-        cardSuit: 'spade',
-        value: '7',
-        color: 'black',
-    },
-    {
-        cardSuit: 'spade',
-        value: '8',
-        color: 'black',
-    },
-    {
-        cardSuit: 'spade',
-        value: '9',
-        color: 'black',
-    },
-    {
-        cardSuit: 'spade',
-        value: '10',
-        color: 'black',
-    },
-    {
-        cardSuit: 'spade',
-        value: 'jack',
-        color: 'black',
-    },
-    {
-        cardSuit: 'spade',
-        value: 'queen',
-        color: 'black',
-    },
-    {
-        cardSuit: 'spade',
-        value: 'king',
-        color: 'black',
-    },
-    {
-        cardSuit: 'spade',
-        value: 'ace',
-        color: 'black',
-    },
-    {
-        cardSuit: 'clubs',
-        value: '6',
-        color: 'black',
-    },
-    {
-        cardSuit: 'clubs',
-        value: '7',
-        color: 'black',
-    },
-    {
-        cardSuit: 'clubs',
-        value: '8',
-        color: 'black',
-    },
-    {
-        cardSuit: 'clubs',
-        value: '9',
-        color: 'black',
-    },
-    {
-        cardSuit: 'clubs',
-        value: '10',
-        color: 'black',
-    },
-    {
-        cardSuit: 'clubs',
-        value: 'jack',
-        color: 'black',
-    },
-    {
-        cardSuit: 'clubs',
-        value: 'queen',
-        color: 'black',
-    },
-    {
-        cardSuit: 'clubs',
-        value: 'king',
-        color: 'black',
-    },
-    {
-        cardSuit: 'clubs',
-        value: 'ace',
-        color: 'black',
-    },
-    {
-        cardSuit: 'diamond',
-        value: '6',
-        color: 'red',
-    },
-    {
-        cardSuit: 'diamond',
-        value: '7',
-        color: 'red',
-    },
-    {
-        cardSuit: 'diamond',
-        value: '8',
-        color: 'red',
-    },
-    {
-        cardSuit: 'diamond',
-        value: '9',
-        color: 'red',
-    },
-    {
-        cardSuit: 'diamond',
-        value: '10',
-        color: 'red',
-    },
-    {
-        cardSuit: 'diamond',
-        value: 'jack',
-        color: 'red',
-    },
-    {
-        cardSuit: 'diamond',
-        value: 'queen',
-        color: 'red',
-    },
-    {
-        cardSuit: 'diamond',
-        value: 'king',
-        color: 'red',
-    },
-    {
-        cardSuit: 'diamond',
-        value: 'ace',
-        color: 'red',
-    },
-    {
-        cardSuit: 'heart',
-        value: '6',
-        color: 'red',
-    },
-    {
-        cardSuit: 'heart',
-        value: '7',
-        color: 'red',
-    },
-    {
-        cardSuit: 'heart',
-        value: '8',
-        color: 'red',
-    },
-    {
-        cardSuit: 'heart',
-        value: '9',
-        color: 'red',
-    },
-    {
-        cardSuit: 'heart',
-        value: '10',
-        color: 'red',
-    },
-    {
-        cardSuit: 'heart',
-        value: 'jack',
-        color: 'red',
-    },
-    {
-        cardSuit: 'heart',
-        value: 'queen',
-        color: 'red',
-    },
-    {
-        cardSuit: 'heart',
-        value: 'king',
-        color: 'red',
-    },
-    {
-        cardSuit: 'heart',
-        value: 'ace',
-        color: 'red',
-    },
-]
+// let cards = [
+//     {
+//         cardSuit: 'spade',
+//         value: '6',
+//         color: 'black',
+//     },
+//     {
+//         cardSuit: 'spade',
+//         value: '7',
+//         color: 'black',
+//     },
+//     {
+//         cardSuit: 'spade',
+//         value: '8',
+//         color: 'black',
+//     },
+//     {
+//         cardSuit: 'spade',
+//         value: '9',
+//         color: 'black',
+//     },
+//     {
+//         cardSuit: 'spade',
+//         value: '10',
+//         color: 'black',
+//     },
+//     {
+//         cardSuit: 'spade',
+//         value: 'jack',
+//         color: 'black',
+//     },
+//     {
+//         cardSuit: 'spade',
+//         value: 'queen',
+//         color: 'black',
+//     },
+//     {
+//         cardSuit: 'spade',
+//         value: 'king',
+//         color: 'black',
+//     },
+//     {
+//         cardSuit: 'spade',
+//         value: 'ace',
+//         color: 'black',
+//     },
+//     {
+//         cardSuit: 'club',
+//         value: '6',
+//         color: 'black',
+//     },
+//     {
+//         cardSuit: 'club',
+//         value: '7',
+//         color: 'black',
+//     },
+//     {
+//         cardSuit: 'club',
+//         value: '8',
+//         color: 'black',
+//     },
+//     {
+//         cardSuit: 'club',
+//         value: '9',
+//         color: 'black',
+//     },
+//     {
+//         cardSuit: 'club',
+//         value: '10',
+//         color: 'black',
+//     },
+//     {
+//         cardSuit: 'club',
+//         value: 'jack',
+//         color: 'black',
+//     },
+//     {
+//         cardSuit: 'club',
+//         value: 'queen',
+//         color: 'black',
+//     },
+//     {
+//         cardSuit: 'club',
+//         value: 'king',
+//         color: 'black',
+//     },
+//     {
+//         cardSuit: 'club',
+//         value: 'ace',
+//         color: 'black',
+//     },
+//     {
+//         cardSuit: 'diamond',
+//         value: '6',
+//         color: 'red',
+//     },
+//     {
+//         cardSuit: 'diamond',
+//         value: '7',
+//         color: 'red',
+//     },
+//     {
+//         cardSuit: 'diamond',
+//         value: '8',
+//         color: 'red',
+//     },
+//     {
+//         cardSuit: 'diamond',
+//         value: '9',
+//         color: 'red',
+//     },
+//     {
+//         cardSuit: 'diamond',
+//         value: '10',
+//         color: 'red',
+//     },
+//     {
+//         cardSuit: 'diamond',
+//         value: 'jack',
+//         color: 'red',
+//     },
+//     {
+//         cardSuit: 'diamond',
+//         value: 'queen',
+//         color: 'red',
+//     },
+//     {
+//         cardSuit: 'diamond',
+//         value: 'king',
+//         color: 'red',
+//     },
+//     {
+//         cardSuit: 'diamond',
+//         value: 'ace',
+//         color: 'red',
+//     },
+//     {
+//         cardSuit: 'heart',
+//         value: '6',
+//         color: 'red',
+//     },
+//     {
+//         cardSuit: 'heart',
+//         value: '7',
+//         color: 'red',
+//     },
+//     {
+//         cardSuit: 'heart',
+//         value: '8',
+//         color: 'red',
+//     },
+//     {
+//         cardSuit: 'heart',
+//         value: '9',
+//         color: 'red',
+//     },
+//     {
+//         cardSuit: 'heart',
+//         value: '10',
+//         color: 'red',
+//     },
+//     {
+//         cardSuit: 'heart',
+//         value: 'jack',
+//         color: 'red',
+//     },
+//     {
+//         cardSuit: 'heart',
+//         value: 'queen',
+//         color: 'red',
+//     },
+//     {
+//         cardSuit: 'heart',
+//         value: 'king',
+//         color: 'red',
+//     },
+//     {
+//         cardSuit: 'heart',
+//         value: 'ace',
+//         color: 'red',
+//     },
+// ]
 
 // - знайти піковий туз
 
@@ -355,15 +355,14 @@ let cards = [
 
 // - всі трефи від 9 та більше
 
-let clubsFromNine = cards.filter( card => {
-        if (card.cardSuit ===`clubs` && card.value !==`6` && card.value !==`7` && card.value !==`8`){
-        return 1
-
-        }
-
-})
-console.log(clubsFromNine)
-
+// let clubsFromNine = cards.filter( card => {
+//         if (card.cardSuit ===`clubs` && card.value !==`6` && card.value !==`7` && card.value !==`8`){
+//         return 1
+//
+//         }
+//
+// })
+// console.log(clubsFromNine)
 
 
 // {
@@ -379,12 +378,32 @@ console.log(clubsFromNine)
 
 //     Взяти описану колоду карт, та за допомоги reduce упакувати всі карти по "мастях" в об'єкт
 
-// let cardDeck = {
+
+// let cardSort = cards.reduce((accumulator, card) => {
+//     if (card.cardSuit === `spade`) {
+//         accumulator.spades.push(card)
+//     }
+//     if (card.cardSuit === `diamond`) {
+//         accumulator.diamonds.push(card)
+//     }
+//     if (card.cardSuit === `heart`) {
+//         accumulator.hearts.push(card)
+//     }
+//     if (card.cardSuit === `club`) {
+//         accumulator.clubs.push(card)
+//     }
+// return accumulator
+// }, {
 //     spades: [],
 //     diamonds: [],
 //     hearts: [],
 //     clubs: []
-// }
+// })
+// console.log(cardSort.clubs)
+// console.log(cardSort.spades)
+// console.log(cardSort.diamonds)
+// console.log(cardSort.hearts)
+
 
 
 // =========================
