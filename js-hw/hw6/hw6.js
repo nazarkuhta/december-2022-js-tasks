@@ -482,7 +482,15 @@ let coursesArray = [
 ];
 
 // --написати пошук всіх об'єктів, в який в modules є sass
-
+let sass = coursesArray.filter((course)=>{
+    return course.modules && course.modules.includes(`sass`)
+})
+console.log(sass)
 
 
 // --написати пошук всіх об'єктів, в який в modules є docker
+
+let docker = coursesArray.filter((course)=>{
+    return course.modules && course.modules.includes(`docker`)
+})
+console.log(docker)
