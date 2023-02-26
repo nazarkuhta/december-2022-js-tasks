@@ -34,11 +34,34 @@
 // console.log(sortedUsers)
 
 // - створити класс для об'єктів Client з полями id, name, surname , email, phone, order (поле є масивом зі списком товарів)
+
+class Client {
+    constructor(id, name, surname , email, phone, order) {
+        this.id = id
+        this.name = name
+        this.surname = surname
+        this.email = email
+        this.phone = phone
+        this.order = order
+    }
+}
+
 // створити пустий масив, наповнити його 10 об'єктами Client
 
+let clientArray = [
+    new Client(1,`client1`,`client_surname1`, `email1@gmail.com`,1111111,[`item1`,`item1`,`item1`,`item1`]),
+    new Client(2,`client2`,`client_surname2`, `email2@gmail.com`,2222222,[`item1`,`item1`]),
+    new Client(3,`client3`,`client_surname3`, `email3@gmail.com`,3333333,[`item1`,`item1`,`item1`,`item1`,`item1`]),
+    new Client(4,`client4`,`client_surname4`, `email4@gmail.com`,4444444,[`item1`,`item1`]),
+    new Client(5,`client5`,`client_surname5`, `email5@gmail.com`,5555555,[`item1`,`item1`,`item1`])
+]
 
 // - Взяти масив (Client [] з попереднього завдання).Відсортувати його по кількості товарів в полі order по зростанню. (sort)
 
+let sortedClients = clientArray.sort((a,b)=>{
+    return a.order.length-b.order.length
+})
+console.log(sortedClients)
 
 // - Створити функцію конструктор яка дозволяє створювати об'єкти car, з властивостями модель, виробник, рік випуску, максимальна швидкість, об'єм двигуна. додати в об'єкт функції:
 
