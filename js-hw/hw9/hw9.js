@@ -271,7 +271,16 @@
 //
 //     - Створити довільний елемент з id = text та створити кнопку.Використовуючи JavaScript, зробіть так, щоб при натисканні на кнопку зникав елемент з id="text".
 
+let txt = document.createElement(`h1`)
+txt.innerText = `Hello okten`
+let btn = document.createElement(`button`)
+btn.innerText = `CLICK ME`
+btn.onclick =()=>{
+       txt.style.display = `none`
 
+}
+document.body.appendChild(txt)
+document.body.appendChild(btn)
 
 
 
