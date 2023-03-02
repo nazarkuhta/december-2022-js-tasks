@@ -271,21 +271,46 @@
 //
 //     - Створити довільний елемент з id = text та створити кнопку.Використовуючи JavaScript, зробіть так, щоб при натисканні на кнопку зникав елемент з id="text".
 
-let txt = document.createElement(`h1`)
-txt.innerText = `Hello okten`
-let btn = document.createElement(`button`)
-btn.innerText = `CLICK ME`
-btn.onclick =()=>{
-       txt.style.display = `none`
-
-}
-document.body.appendChild(txt)
-document.body.appendChild(btn)
+// let txt = document.createElement(`h1`)
+// txt.innerText = `Hello okten`
+// let btn = document.createElement(`button`)
+// btn.innerText = `CLICK ME`
+// btn.onclick =()=>{
+//        txt.style.display = `none`
+//
+// }
+// document.body.appendChild(txt)
+// document.body.appendChild(btn)
 
 
 
 //     - створити інпут який приймає вік людини та кнопку яка підтверджує дію.При натисканні на кнопку зчитати інформацію з інпуту та перевірити вік чи меньше він ніж 18, та повідомити про це користувача
+
+// let form = document.createElement(`form`)
+// form.name = `ageCheck`
 //
+//
+// let input = document.createElement(`input`)
+// input.type = `number`
+// input.name = `age`
+// form.appendChild(input)
+// let submitBtn = document.createElement(`button`)
+// submitBtn.innerText = `Submit`
+// form.appendChild(submitBtn)
+//
+// form.onsubmit = ()=>{
+//     if (form.age.value < 18){
+//         alert(`вчи уроки`)
+//     }else {
+//         alert(`Welcome to the club buddy`)
+//     }
+// }
+//
+//
+// document.body.appendChild(form)
+
+
+
 // *** Створити 3 інпута та кнопку. Один визначає кількість рядків, другий - кількість ячеєк, третій вмиіст ячеєк.
 //     При натисканні кнопки, вся ця інформація зчитується і формується табличка, з відповідним вмістом.
 // (Додатковачастина для завдання)
