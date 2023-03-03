@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30cd95cc-c790-4b6b-9af4-242c818a551d" name="Changes" comment="hw9">
-      <change afterPath="$PROJECT_DIR$/js-hw/hw10/hw10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js-hw/hw10/hw10.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js-hw/hw10/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js-hw/hw10/session.html" afterDir="false" />
+    <list default="true" id="30cd95cc-c790-4b6b-9af4-242c818a551d" name="Changes" comment="hw10">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js-hw/hw9/hw9.js" beforeDir="false" afterPath="$PROJECT_DIR$/js-hw/hw9/hw9.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js-hw/hw10/hw10.js" beforeDir="false" afterPath="$PROJECT_DIR$/js-hw/hw10/hw10.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js-hw/hw10/session.html" beforeDir="false" afterPath="$PROJECT_DIR$/js-hw/hw10/session.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +87,7 @@
       <workItem from="1677312714810" duration="4214000" />
       <workItem from="1677436158533" duration="524000" />
       <workItem from="1677679954474" duration="7705000" />
-      <workItem from="1677744712570" duration="5246000" />
+      <workItem from="1677744712570" duration="6745000" />
     </task>
     <task id="LOCAL-00001" summary="hw1">
       <created>1675184746117</created>
@@ -309,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677744593648</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="hw10">
+      <created>1677866643167</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1677866643167</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,6 +341,7 @@
     <MESSAGE value="hw6" />
     <MESSAGE value="hw8" />
     <MESSAGE value="hw9" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw9" />
+    <MESSAGE value="hw10" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw10" />
   </component>
 </project>

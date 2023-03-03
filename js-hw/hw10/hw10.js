@@ -32,7 +32,13 @@
 // Є ще сторінка sessions.html (назва довільна), при відвідуванні якої потрібно відмалювати всю інформацію про відвідування сторінки index.html.
 // Інфу НЕ виводити в консоль, а побудувати дом структуру під кожну сессію
 
-localStorage.setItem(`date` , Date())
+// let date = new Date()
+// let sessions = []
+//
+// sessions.push(date.toString())
+// localStorage.setItem(`date`, JSON.stringify(sessions))
+
+
 
 
 // =========================
