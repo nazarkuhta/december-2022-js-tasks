@@ -15,8 +15,6 @@
 // }
 
 
-
-
 // ==========================
 // є сторінка, на якій є блок, я кому знаходиьтся цифра. написати код, який при кожному перезавантажені сторінки буде додавати до неї +1
 
@@ -39,10 +37,56 @@
 // localStorage.setItem(`date`, JSON.stringify(sessions))
 
 
-
-
 // =========================
 //     зробити масив на 100 об'єктів та дві кнопки prev next
-// при завантажені сторінки з'являються перші 10 об'єктів.
 //     При натисканні next виводяться настпні 10 об'єктів
 // При натисканні prev виводяться попередні 10 об'єктів
+
+let objects = []
+let startIndex = 0
+let objectsContainer = document.getElementById(`objects`)
+
+for (let i = 0; i < 100; i++) {
+    objects.push({
+        id: i + 1,
+        name: `Object ${i + 1}`
+    })
+}
+
+function renderObjects() {
+    objectsContainer.innerHTML = ``
+    for (let i = startIndex; i < startIndex + 10 && i < objects.length; i++) {
+        let object = objects[i];
+        let objectsDiv = document.createElement(`div`)
+        objectsDiv.innerHTML = `ID: ${object.id} Name:${object.name}`
+        objectsContainer.appendChild(objectsDiv)
+    }
+
+
+}
+
+renderObjects()
+
+let nextBtn = document.getElementById(`next`)
+nextBtn.addEventListener(`click`, function (eo) {
+    eo.preventDefault()
+    if (startIndex += 10< objects.length){
+        startIndex += 10
+        renderObjects()
+    }
+
+        })
+let prevBtn = document.getElementById(`prev`)
+prevBtn.addEventListener(`click`,function (eo){
+    eo.preventDefault()
+    if (startIndex -= 10< objects.length){
+        startIndex-=10
+        renderObjects()
+    }
+
+})
+
+
+
+
+
