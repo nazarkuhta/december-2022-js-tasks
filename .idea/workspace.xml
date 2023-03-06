@@ -8,7 +8,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js-hw/hw10/hw10.html" beforeDir="false" afterPath="$PROJECT_DIR$/js-hw/hw10/hw10.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js-hw/hw10/hw10.js" beforeDir="false" afterPath="$PROJECT_DIR$/js-hw/hw10/hw10.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js-hw/hw10/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/js-hw/hw10/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +87,9 @@
       <workItem from="1677312714810" duration="4214000" />
       <workItem from="1677436158533" duration="524000" />
       <workItem from="1677679954474" duration="7705000" />
-      <workItem from="1677744712570" duration="10595000" />
+      <workItem from="1677744712570" duration="10991000" />
+      <workItem from="1678038377523" duration="59000" />
+      <workItem from="1678038536875" duration="206000" />
     </task>
     <task id="LOCAL-00001" summary="hw1">
       <created>1675184746117</created>
@@ -321,7 +322,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677868292803</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="hw10">
+      <created>1677935136384</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1677935136384</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
