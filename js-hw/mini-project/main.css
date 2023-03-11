@@ -48,10 +48,11 @@ a{
     border: black 1px solid;
     display: flex;
 text-align: center;
+    margin: 10px;
+    justify-content: center;
 }
 .commentsContainer{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
+    display: flex;
     grid-gap: 10px;
 
 }

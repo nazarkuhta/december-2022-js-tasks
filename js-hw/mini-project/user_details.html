@@ -6,7 +6,9 @@
     <style>
         body{
             display: flex;
+            align-items: center;
             justify-content: center;
+            flex-direction: column;
         }
     </style>
     <link rel="stylesheet" href="main.css">
@@ -49,6 +51,9 @@
     let usersUrl = new URL(location.href)
     let userId = usersUrl.searchParams.get(`id`);
 
+
+
+
     fetch(`https://jsonplaceholder.typicode.com/users/${userId}`)
         .then(value => value.json())
         .then(user => {
@@ -73,8 +78,35 @@
     let postsBtn = document.getElementById(`postsBtn`);
 postsBtn.addEventListener(`click`,function (eo){
     eo.preventDefault()
-    location.href = `post.html?id=${userId}`
+
+    let postsContainer = document.createElement("div")
+    postsContainer.classList.add(`container`)
+    document.body.appendChild(postsContainer)
+    fetch(`https://jsonplaceholder.typicode.com/users/${userId}/posts`)
+        .then(value => value.json())
+        .then(posts =>{
+            for (let post of posts) {
+                let postDiv = document.createElement(`div`);
+                postDiv.classList.add(`postsDiv`)
+                let postTitle = document.createElement(`a`)
+                postTitle.innerText = `Tittle: ${post.title}`
+                postTitle.href = `post_details.html?id=${post.id}`
+                postDiv.appendChild(postTitle)
+                postsContainer.appendChild(postDiv)
+            }
+            console.log(posts)
+        })
 })
+
+
+
+
+
+
+    // let userId = postUrl.searchParams.get(`id`)
+
+
+
 
 
 </script>
