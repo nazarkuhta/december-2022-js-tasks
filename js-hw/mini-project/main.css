@@ -31,7 +31,12 @@ a{
     grid-template-columns: repeat(5,1fr);
     grid-gap: 10px;
 }
+.userBtn{
+    border: black 1px solid;
+
+}
 .user{
+    border: black 1px solid;
     text-align: center;
     padding: 20px;
 
@@ -52,6 +57,7 @@ text-align: center;
     justify-content: center;
 }
 .commentsContainer{
+    margin-top: 15px;
     display: flex;
     grid-gap: 10px;
 

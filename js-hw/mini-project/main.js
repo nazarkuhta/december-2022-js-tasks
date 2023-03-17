@@ -17,9 +17,13 @@ fetch(users)
             let userTittle = document.createElement(`h2`)
             userDiv.appendChild(userTittle)
             userTittle.innerText = `ID:${user.id} `
+            let userName = document.createElement(`h2`)
+            userName.innerText = user.name
             let details = document.createElement(`a`)
-            details.innerText = user.name
+            details.classList.add(`userBtn`)
+            details.innerText = `user details`
             details.href = `user_details.html?id=${user.id}`
+            userDiv.appendChild(userName)
             userDiv.appendChild(details)
             container.appendChild(userDiv)
         }
